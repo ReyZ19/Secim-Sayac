@@ -1,0 +1,13 @@
+{
+  "name": "secim_sayac",
+  "version": "0.0.1",
+  "main": "app.js",
+  "author": "ReyZ19",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
