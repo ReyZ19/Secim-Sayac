@@ -5,7 +5,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.once(Events.ClientReady, c => {
 	console.log(`Ready! Logged in as ${c.user.tag}`);
-	var countDownDate = new Date("May 14, 2023 08:00:00").getTime();
+	var countDownDate = new Date("May 28, 2023 08:00:00").getTime();
 
 	setInterval(() => {
 		var now = new Date().getTime();
